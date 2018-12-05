@@ -59,12 +59,13 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
+  background-image: url("../img/condoms.jpg");
+}
+
+customheader {
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/condoms.jpg");
 }
 
 header.masthead .masthead-content {
@@ -84,8 +85,7 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background-image: url("../img/condoms.jpg");
 }
 
 header.masthead .bg-circle-1 {
