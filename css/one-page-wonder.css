@@ -75,10 +75,14 @@ header.masthead .masthead-content {
 
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
+  color: #640606!important;
+  text-shadow: 2px 2px #ffffff;
 }
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
+  color: #640606!important;
+  text-shadow: 2px 2px #ffffff;
 }
 
 header.masthead .bg-circle {
